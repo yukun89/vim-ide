@@ -9,12 +9,12 @@ Features:
 *	Easy to install and update: you need only one command.
 *	Easy to compile and debug program: you need not exit your vim any more.
 
-##1. what plugins are included  in this project?
+## 1. what plugins are included  in this project?
 
-###1.1 go
+### 1.1 go
 This is syntax hight for go language. You need not do nothing to invoke it.
 
-###1.2 nerdtree
+### 1.2 nerdtree
 With this plugin, you can brow your file in one project more easily: it will be displayed in file tree.
 
 **config**
@@ -26,7 +26,7 @@ With this plugin, you can brow your file in one project more easily: it will be 
 **invoke**
 	To invoke it , just put `\n` in vim NORMAL mode.
 
-###1.3 vim-commentary
+### 1.3 vim-commentary
 **config**	
 
 	autocmd FileType python,shell set commentstring=#\ %s   " 设置Python注释字符
@@ -52,20 +52,20 @@ With this plugin, you can management much easier.
 **invoe**
 
 Do nothing.
-###1.7 vimwiki
+### 1.7 vimwiki
 ignore
-###1.8 neobundle.vim
+### 1.8 neobundle.vim
 (to be added)
-###1.9 ultisnips
+### 1.9 ultisnips
 (to be added)
-###1.10 vim-easymotion
+### 1.10 vim-easymotion
 (to be added)
-###1.11 vim-markdown
+### 1.11 vim-markdown
 
 This is just for syntax hightlight for markdown.
-###1.12 vim-nerdtree-tabs
+### 1.12 vim-nerdtree-tabs
 (to be added)
-###1.13 vim-PinyinSearch
+### 1.13 vim-PinyinSearch
 This is for search PinYin.
 **config**
 
@@ -75,7 +75,7 @@ This is for search PinYin.
 **invoke**
 
 Just input `?` in NORMAL model.
-###1.14 airline
+### 1.14 airline
 This is usefull when you want to display some info about the pwd, model, filename, encode, and so on.
 
 **config**
@@ -95,7 +95,7 @@ This is usefull when you want to display some info about the pwd, model, filenam
 **invoe**
 
 Do nothing.
-###1.15 CtrlP
+### 1.15 CtrlP
 When there are many files in your project, chances are that you want to open the files which were opened recently.This plugin helps you to do this.
 
 **config**
@@ -108,7 +108,7 @@ When there are many files in your project, chances are that you want to open the
 
 Input `<c-p>` in NORMAL model.
 
-###1.16 taglist
+### 1.16 taglist
 
 In some IDE like Visual Studio or Eclipse, we can see the name of typedef,Class, Function and so on.This plugin can help you do this.
 **config**
@@ -122,7 +122,7 @@ In some IDE like Visual Studio or Eclipse, we can see the name of typedef,Class,
 
 Input `tl` in NORMAL model.
 
-###1.17 winManager
+### 1.17 winManager
 This plugin will help you manage the windows in one terminal.
 **config**
 
@@ -134,7 +134,7 @@ This plugin will help you manage the windows in one terminal.
 
 Input `wm` in VIM NORMAL model.
 
-###1.18 cscope
+### 1.18 cscope
 This plugin will help you use tag more quickly. 
 
 You can find 
@@ -158,7 +158,7 @@ You can find
 **invode**
 As you see in the config above, you can call it by `,fg` or `,fc`.
 
-##2. Easy compile&&debug
+## 2. Easy compile&&debug
 
 When you use `visual studio`, you can use `F7` to compile and `F5` to debug. Now you can also do this with our vimrc.
 
@@ -170,7 +170,7 @@ You can find this by "map key" in vimrc.
 	git clone https://github.com/huangyukun2012/vimconfig.git 	
 	./install
 
-##4. extention
+## 4. extention
 
 **How to install new plugin**
 
